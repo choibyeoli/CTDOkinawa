@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "resize-16922728021898490874CTDimage.jpeg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
