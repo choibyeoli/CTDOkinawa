@@ -11,8 +11,8 @@ final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDeleg
     /// 오키나와 기준 좌표
     private let okinawaCenter = CLLocation(latitude: 26.215834, longitude: 127.678477)
     
-    /// 오키나와에서 이 거리(km) 이상 멀어지면 오키나와 중심으로 지도를 이동
-    private let maxDistanceFromOkinawa: CLLocationDistance = 200_000 // 200km
+    /// 오키나와에서 200km 이상 멀어지면 오키나와 중심으로 지도를 이동
+    private let maxDistanceFromOkinawa: CLLocationDistance = 200_000
     
     private var locationManager: CLLocationManager?
     
